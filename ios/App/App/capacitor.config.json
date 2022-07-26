@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "simple-router-swipe",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

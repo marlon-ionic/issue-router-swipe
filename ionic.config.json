@@ -1,5 +1,5 @@
 {
-  "name": "issue-router-swipe",
+  "name": "simple-router-swipe",
   "integrations": {
     "capacitor": {}
   },

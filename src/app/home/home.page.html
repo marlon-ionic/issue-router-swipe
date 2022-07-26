@@ -13,8 +13,22 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid class="w-100">
+    <ion-row>
+      <ion-col>
+        <h1>Library</h1>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngFor="let book of [1, 2, 3, 4, 5]; let i = index">
+      <ion-col size="1"></ion-col>
+
+      <ion-col size="10" class="book">
+        <h2 (click)="goToBook(book)">Book {{ book }}</h2>
+      </ion-col>
+
+      <ion-col size="1"></ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
