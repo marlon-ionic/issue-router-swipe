@@ -1,0 +1,7 @@
+{
+  "name": "issue-router-swipe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
